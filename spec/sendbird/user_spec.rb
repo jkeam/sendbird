@@ -148,4 +148,17 @@ describe Sendbird::User do
       end
     end
   end
+
+  # TODO: implement me
+  # context 'Delete' do
+  #   let(:request) do
+  #     create_dynamic_cassette("#{described_class}/delete") do
+  #       described_class.destroy('user_id')
+  #     end
+  #   end
+
+  #   it 'will delete the user' do
+  #     expect(request.body).to eq({})
+  #   end
+  # end
 end
